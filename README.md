@@ -25,9 +25,3 @@ Integrate provisioning stage into complete CI/CD Pipeline to automate provisioni
   - b. CI step: Build and push Docker image to Docker Hub
   - c. CD step: Automatically provision EC2 instance using TF
   - d. CD step: Deploy new application version on the provisioned EC2 instance with Docker Compose
-
-                                   COMMAND                  CREATED          STATUS          PORTS                                       NAMES
-# 459bc9f7af12   fsiegrist/fesi-repo:devops-bootcamp-java-maven-app-1.0.57-7   "/bin/sh -c 'java -j…"   53 seconds ago   Up 52 seconds   0.0.0.0:8000->8080/tcp, :::8000->8080/tcp   ec2-user-java-maven-app-1
-```
-
-Open the browser and navigate to 'http://3.76.7.164:8000' to see the java-maven-app in action.
